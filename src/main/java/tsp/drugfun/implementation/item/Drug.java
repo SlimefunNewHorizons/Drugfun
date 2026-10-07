@@ -1,10 +1,10 @@
 package tsp.drugfun.implementation.item;
 
-import com.github.drakescraft_labs.slimefun4.api.events.PlayerRightClickEvent;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.core.handlers.ItemUseHandler;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
+import io.github.bakedlibs.dough.data.persistent.PersistentDataAPI;
+import io.github.bakedlibs.dough.items.ItemUtils;
 import org.bukkit.NamespacedKey;
 import org.bukkit.potion.PotionEffect;
 import tsp.drugfun.Drugfun;

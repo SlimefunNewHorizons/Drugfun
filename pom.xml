@@ -50,7 +50,7 @@
         <dependency>
             <groupId>com.github.drakescraft_labs</groupId>
             <artifactId>slimefun-core</artifactId>
-            <version>11.0-Drake-1.21.11-SNAPSHOT</version>
+            <version>11.0-Universal-26.x-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -61,11 +61,27 @@
     </dependencies>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.release>25</maven.compiler.release>
     </properties>
 
     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>${maven.compiler.release}</release>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>1.18.34</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+        </plugins>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

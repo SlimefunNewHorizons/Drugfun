@@ -1,6 +1,6 @@
 package tsp.drugfun.task;
 
-import com.github.drakescraft_labs.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.bakedlibs.dough.data.persistent.PersistentDataAPI;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import tsp.drugfun.implementation.item.Drug;
