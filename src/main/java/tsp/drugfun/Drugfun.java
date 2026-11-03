@@ -60,7 +60,7 @@ public class Drugfun extends JavaPlugin implements SlimefunAddon {
     @Nullable
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/DrakesCraft-Labs/Drugfun/issues";
+        return "https://github.com/SlimefunNewHorizons/Drugfun/issues";
     }
 
     public static Drugfun getInstance() {
